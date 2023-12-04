@@ -44,7 +44,7 @@ public:
     void printGender() {        cout << "Gender: " << gender << endl;    }
     void printRace() {        cout << "Race: " << race << endl;    }
     void printAge() const {        cout << "Age: " << age << endl;    }
-    void printCountry() {        std::cout << "Country: " << country << endl;    }
+    void printCountry() {        cout << "Country: " << country << endl;    }
     void printIQ() const {        cout << "IQ: " << iq << endl;    }
 };
 
